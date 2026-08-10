@@ -1,0 +1,1204 @@
+{
+  "datos": {
+    "rango_fechas": {
+      "inicio": "2026-05-04",
+      "fin": "2026-05-15"
+    },
+    "ventas_cerradas": [
+      {
+        "id": "7783",
+        "nombre": "LPI ANDE 1753 SE LOMA PLATA Y SE POZO COLORADO - COMISIONAMIENTO DE MYD GE",
+        "estado": "Won"
+      },
+      {
+        "id": "7708",
+        "nombre": "Movimiento de Trafo Supervisado con verificación de Registradores de Impacto.",
+        "estado": "Won"
+      },
+      {
+        "id": "7617",
+        "nombre": "Alquiler de máquina de aire seco",
+        "estado": "Won"
+      },
+      {
+        "id": "7332",
+        "nombre": "Reles Auxiliares Arteche",
+        "estado": "Won"
+      },
+      {
+        "id": "7309",
+        "nombre": "EF 0379-25 - Equipo de medicion online de gases disueltos en aceite aislante MINITRANS - COMISION DE MYD GE",
+        "estado": "Won"
+      },
+      {
+        "id": "7250",
+        "nombre": "Sincronismo de Mando p/ Banco de Capacitores LPI 1814",
+        "estado": "Won"
+      },
+      {
+        "id": "7152",
+        "nombre": "Montaje - Transformador de potencia",
+        "estado": "Won"
+      },
+      {
+        "id": "7107",
+        "nombre": "Transformador de potencia, trifásico, inmerso en aceite mineral aislante, 10 MVA, 66/23 kV Cargill Paraguay",
+        "estado": "Won"
+      },
+      {
+        "id": "7071",
+        "nombre": "Medición de Calidad de Energía VMA S.A.",
+        "estado": "Won"
+      },
+      {
+        "id": "6844",
+        "nombre": "441197 - VEX 275-24 Mantenimiento y Soporte Técnico Anual de las Licencias del Software de Telemedición OPTIMUN",
+        "estado": "Won"
+      },
+      {
+        "id": "5947",
+        "nombre": "PASEO GUARANÍ - PUNTOS DE MEDICIONES E INTEGRACION AL OPTIMUM",
+        "estado": "Won"
+      },
+      {
+        "id": "7780",
+        "nombre": "DM 9300-Arteche Analisis y restablecimiento",
+        "estado": "Won"
+      },
+      {
+        "id": "7713",
+        "nombre": "ELKEM - Mantenimiento correctivo de Interruptor MT",
+        "estado": "Won"
+      },
+      {
+        "id": "7711",
+        "nombre": "Relés Auxiliares Arteche",
+        "estado": "Won"
+      },
+      {
+        "id": "7705",
+        "nombre": "MyD para transformador Cargill",
+        "estado": "Won"
+      },
+      {
+        "id": "7704",
+        "nombre": "Transformador de Distribución en Aceite de 1500KVA WEG",
+        "estado": "Won"
+      },
+      {
+        "id": "7682",
+        "nombre": "MyD para transformador Cargill",
+        "estado": "Won"
+      },
+      {
+        "id": "7616",
+        "nombre": "Supervisión de reemplazo de TCs SE Luque",
+        "estado": "Won"
+      },
+      {
+        "id": "7573",
+        "nombre": "Montaje - Transformador de potencia",
+        "estado": "Won"
+      },
+      {
+        "id": "7558",
+        "nombre": "Electricistas de refuerzo para trabajos en BT",
+        "estado": "Won"
+      },
+      {
+        "id": "7519",
+        "nombre": "Alquiler de maleta Omicron CMC 356",
+        "estado": "Won"
+      },
+      {
+        "id": "7509",
+        "nombre": "Provisión de  Bolsas para tanque de expansión de transformadores",
+        "estado": "Won"
+      },
+      {
+        "id": "7304",
+        "nombre": "Reparación de Averías Trafo 220/23KV - 80MVA NS. 1085688022 - SE Luque",
+        "estado": "Won"
+      },
+      {
+        "id": "7301",
+        "nombre": "WEG Transformador 10MVA 66-23kv - ENERSUR",
+        "estado": "Won"
+      },
+      {
+        "id": "7221",
+        "nombre": "Alquiler de equipo de Vacío con Operario",
+        "estado": "Won"
+      },
+      {
+        "id": "7165",
+        "nombre": "Transformadores •\t3 transformadores reductores de 2000 kVA. •\t3 transformadores reductores de 1600 kVA. * 4 trafos elevadores 1.500kva - SE Parglass Concretmix",
+        "estado": "Won"
+      },
+      {
+        "id": "7159",
+        "nombre": "Recepción Técnica de Suministro - 5 Trafos de Potencia",
+        "estado": "Won"
+      },
+      {
+        "id": "7155",
+        "nombre": "Secadores para transformadores",
+        "estado": "Won"
+      },
+      {
+        "id": "7124",
+        "nombre": "MyD para transformador Cargill",
+        "estado": "Won"
+      },
+      {
+        "id": "7087",
+        "nombre": "Mantenimiento de SE Elkem",
+        "estado": "Won"
+      },
+      {
+        "id": "7048",
+        "nombre": "Ensayo Eléctrico de Transformador de 1.6MVA 6.6/0.4KV",
+        "estado": "Won"
+      },
+      {
+        "id": "6937",
+        "nombre": "Oportunidad de Fernando Piccinini",
+        "estado": "Won"
+      },
+      {
+        "id": "6132",
+        "nombre": "Minitrans",
+        "estado": "Won"
+      },
+      {
+        "id": "7132",
+        "nombre": "Oportunidad de Cayo Torres",
+        "estado": "Won"
+      },
+      {
+        "id": "7794",
+        "nombre": "Combustible Utilizado En Generador",
+        "estado": "Won"
+      },
+      {
+        "id": "7777",
+        "nombre": "MONTAJE Y DESMONTAJE TRAFO WEG - CARGILL",
+        "estado": "Won"
+      },
+      {
+        "id": "7755",
+        "nombre": "Alquiler de Generador 220kva",
+        "estado": "Won"
+      },
+      {
+        "id": "7692",
+        "nombre": "Transformadores •\t3 transformadores reductores de 2000 kVA. •\t3 transformadores reductores de 1600 kVA. * 4 trafos elevadores 1.500kva - SE Parglass Concretmix",
+        "estado": "Won"
+      },
+      {
+        "id": "7676",
+        "nombre": "Cargadores para vehiculos",
+        "estado": "Won"
+      },
+      {
+        "id": "7655",
+        "nombre": "LPI ANDE 1753 - SE LOMA PLATA  Y POZO COLORADO - SUPERVISION DE TRAFO",
+        "estado": "Won"
+      },
+      {
+        "id": "7450",
+        "nombre": "Alquiler de maleta Omicron CMC 356",
+        "estado": "Won"
+      },
+      {
+        "id": "7411",
+        "nombre": "Medición y diagnóstico de Celdas",
+        "estado": "Won"
+      },
+      {
+        "id": "7317",
+        "nombre": "Medición y diagnóstico de Celdas",
+        "estado": "Won"
+      },
+      {
+        "id": "7259",
+        "nombre": "Penguin Kit de instalación DGA500 y PGA",
+        "estado": "Won"
+      },
+      {
+        "id": "7258",
+        "nombre": "Medición de Calidad de Energía",
+        "estado": "Won"
+      },
+      {
+        "id": "7166",
+        "nombre": "CIE - Supervisión y Medición  SE Alto Parana",
+        "estado": "Won"
+      },
+      {
+        "id": "7136",
+        "nombre": "Cambio de Bobina de Minima Tensión para cobro de pendiente",
+        "estado": "Won"
+      },
+      {
+        "id": "6940",
+        "nombre": "LPI 1600 - RELE DE MANDO DE SINCRONIZACION VIZIMAX - ALTERNATIVA UPGRADE FUTURO",
+        "estado": "Won"
+      }
+    ],
+    "pipeline_activo": [
+      {
+        "id": "7560",
+        "nombre": "Oportunidad de CONO SRL",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7324",
+        "nombre": "Itaipu EF 0808 Reparacion de transformador 500kv",
+        "estado": "Proposition"
+      },
+      {
+        "id": "5926",
+        "nombre": "SUMINISTRO DEL METRY SENSE DE MEGGER",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7808",
+        "nombre": "Uso del Generador y gastos derivados",
+        "estado": "New"
+      },
+      {
+        "id": "7760",
+        "nombre": "Elken - Mantenimiento de Conmutador bajo Carga",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7759",
+        "nombre": "MR Repuestos para Ande",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7748",
+        "nombre": "Hospital Nacional de Itaugua",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7738",
+        "nombre": "Verificación de instalación eléctrica en BT Unicentro S.A. Mcal López",
+        "estado": "New"
+      },
+      {
+        "id": "7735",
+        "nombre": "Provisión de SE tipo convencional WEG 50MVA",
+        "estado": "New"
+      },
+      {
+        "id": "7734",
+        "nombre": "Provisión de SE tipo SKID WEG 50MVA",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7700",
+        "nombre": "Protección diferencial para barras SE presidente Franco",
+        "estado": "New"
+      },
+      {
+        "id": "7691",
+        "nombre": "Extracción y análisis de aceite dielectrico",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7680",
+        "nombre": "Cargadores WEMOB 23kW - Perseverancia",
+        "estado": "New"
+      },
+      {
+        "id": "7629",
+        "nombre": "Mantenimiento de SE Iguazu Cementos",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7628",
+        "nombre": "Mantenimiento de SE Clyfsa",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7627",
+        "nombre": "Mantenimiento de SE Cargill",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7626",
+        "nombre": "Mantenimiento de SE Caiassa",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7625",
+        "nombre": "Mantenimiento de SE ADM",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7624",
+        "nombre": "Mantenimiento de SE Elkem",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7569",
+        "nombre": "Cargadores WEG para vehículos eléctricos",
+        "estado": "New"
+      },
+      {
+        "id": "7561",
+        "nombre": "Chortitzer - Mantenimiento de Conmutador bajo Carga",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7552",
+        "nombre": "Gestión de Energía - Grupo Cogorno",
+        "estado": "New"
+      },
+      {
+        "id": "7545",
+        "nombre": "Medición de Energía - Amandau",
+        "estado": "New"
+      },
+      {
+        "id": "7535",
+        "nombre": "Distrito Perseverancia - Subestación de 66KV",
+        "estado": "New"
+      },
+      {
+        "id": "7534",
+        "nombre": "Paseo 55 - Trafo seco",
+        "estado": "New"
+      },
+      {
+        "id": "7533",
+        "nombre": "Torre corporativa del Shopping del Sol- Trafo Seco",
+        "estado": "New"
+      },
+      {
+        "id": "7532",
+        "nombre": "Trafo Seco Museo de Ciencias",
+        "estado": "New"
+      },
+      {
+        "id": "7531",
+        "nombre": "Gestion de Energía - Barrio Cerrado",
+        "estado": "New"
+      },
+      {
+        "id": "7530",
+        "nombre": "Trafos Seco - Arete Ita Enramada",
+        "estado": "New"
+      },
+      {
+        "id": "7528",
+        "nombre": "Penta SA - Shopping Plaza Norte",
+        "estado": "New"
+      },
+      {
+        "id": "7523",
+        "nombre": "Gestion de energia + medidores",
+        "estado": "New"
+      },
+      {
+        "id": "7514",
+        "nombre": "M&D p/ Reactores de 20 MVAr",
+        "estado": "New"
+      },
+      {
+        "id": "7510",
+        "nombre": "Provisión de Transformador de Potencia 50MVA",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7484",
+        "nombre": "Provisión de transformador WEG 66/23KV 50MVA",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7444",
+        "nombre": "LPI 1753 CHACO RECEPCION TECNICA TRAFO WEG",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7441",
+        "nombre": "Montaje de Celdas MT",
+        "estado": "New"
+      },
+      {
+        "id": "7436",
+        "nombre": "Montaje y puesta en marcha de Transformadores de distribución",
+        "estado": "New"
+      },
+      {
+        "id": "7434",
+        "nombre": "Optimun Balance de energia",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7419",
+        "nombre": "Enersur - Transformadores Secos Weg",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7415",
+        "nombre": "Montaje de Transformadores de Distribución - Parglass",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7391",
+        "nombre": "Oportunidad de Cicardos",
+        "estado": "New"
+      },
+      {
+        "id": "7348",
+        "nombre": "ENERGIAS DEL PARAGUAY S.A.- REM",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7347",
+        "nombre": "Oportunidad de IT S.A.",
+        "estado": "New"
+      },
+      {
+        "id": "7316",
+        "nombre": "MTR105 Medidor de Máquinas Rotativas",
+        "estado": "New"
+      },
+      {
+        "id": "7294",
+        "nombre": "Megado de motores INPAGAS SRL (LINDE)",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7245",
+        "nombre": "Mediciones de calidad de energia",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7201",
+        "nombre": "LT Vallemi-Carmelo Peralta LPI 1817",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7196",
+        "nombre": "Penguin Datacenter 10MVA en 23kv",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7188",
+        "nombre": "Iguazu-Chaquetas de silicona para aisladores",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7187",
+        "nombre": "INC - Chaquetas de silicona para aisladores",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7185",
+        "nombre": "Ensayos Eléctrico Estáticos y Dinámicos para Motores",
+        "estado": "New"
+      },
+      {
+        "id": "7183",
+        "nombre": "Montajes y mediciones eléctricas",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7089",
+        "nombre": "Verificación de Bancos de Capacitores Unicentro S.A.",
+        "estado": "New"
+      },
+      {
+        "id": "7086",
+        "nombre": "PDD con Optimum Jade Park Asunción",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7075",
+        "nombre": "Provisión e instalación de Analizador de Energía - INMERSA",
+        "estado": "New"
+      },
+      {
+        "id": "6950",
+        "nombre": "SE Fernheim Ampliación SE Filadelfia",
+        "estado": "Proposition"
+      },
+      {
+        "id": "6932",
+        "nombre": "Oportunidad de Petroquim",
+        "estado": "New"
+      },
+      {
+        "id": "6842",
+        "nombre": "Paneles fotovoltaico hogar",
+        "estado": "Proposition"
+      },
+      {
+        "id": "6831",
+        "nombre": "Servicio de ensayos eléctricos para motores de media - INMERSA",
+        "estado": "Qualified"
+      },
+      {
+        "id": "6830",
+        "nombre": "INSUIN SA Medición de Calidad de Energía",
+        "estado": "New"
+      },
+      {
+        "id": "6829",
+        "nombre": "AMI Condominio La Roca - San Bernardino",
+        "estado": "Proposition"
+      },
+      {
+        "id": "6826",
+        "nombre": "Fotovoltaico Petra",
+        "estado": "New"
+      },
+      {
+        "id": "6100",
+        "nombre": "Distrito perseverancia",
+        "estado": "Qualified"
+      },
+      {
+        "id": "5943",
+        "nombre": "Servicio de Consultoría para Sistemas de Comunicación y Control - ID 442522 - LPN (Plan Director)",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "5922",
+        "nombre": "PD SUMERGIBLE",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7737",
+        "nombre": "SE tipo Convencional 50MVA Fernheim Redes y Servicios",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7502",
+        "nombre": "Reparacion de transformadores",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7501",
+        "nombre": "Transport X2, Analizador de Gases portátil",
+        "estado": "New"
+      },
+      {
+        "id": "7500",
+        "nombre": "Transport X",
+        "estado": "New"
+      },
+      {
+        "id": "7498",
+        "nombre": "VEX optimun a ser lanzada",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7463",
+        "nombre": "MTR 105 - Mantenimiento electrico Tecnomyl",
+        "estado": "New"
+      },
+      {
+        "id": "7408",
+        "nombre": "467614 - Adquisición de Repuestos para el CER",
+        "estado": "New"
+      },
+      {
+        "id": "7407",
+        "nombre": "467540 - Adquisición de Reguladores de Tensión para los Grupos 3 y 4 de la Central Acaray",
+        "estado": "New"
+      },
+      {
+        "id": "7393",
+        "nombre": "Analítica Integrada para la Gestión de Distribución de Energía Eléctrica - Licitacion Planificada ID 458965",
+        "estado": "New"
+      },
+      {
+        "id": "7378",
+        "nombre": "Herramienta de Ingeniería para Proyectos - ATLAN",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7343",
+        "nombre": "Sincronizador para Banco de Capacitores tipo shunt",
+        "estado": "New"
+      },
+      {
+        "id": "7314",
+        "nombre": "Medición de Calidad de Energía  Trafo 1",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7302",
+        "nombre": "Transport x para ANDE",
+        "estado": "New"
+      },
+      {
+        "id": "7189",
+        "nombre": "Garden Automotores",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7104",
+        "nombre": "SKID 50MVA Fernheim Redes y Servicios",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7065",
+        "nombre": "Transformadores",
+        "estado": "Proposition"
+      },
+      {
+        "id": "6986",
+        "nombre": "Oportunidad de Garden Automotores S.A.",
+        "estado": "Qualified"
+      },
+      {
+        "id": "6968",
+        "nombre": "Oportunidad de Unicentro S.A.",
+        "estado": "New"
+      },
+      {
+        "id": "6925",
+        "nombre": "Servicio de Reparación de Sub-Estación Planificada - 410215",
+        "estado": "New"
+      },
+      {
+        "id": "6913",
+        "nombre": "Provisión de Inversor de 10KW",
+        "estado": "New"
+      },
+      {
+        "id": "6912",
+        "nombre": "Oportunidad de Nicolas Martinez",
+        "estado": "Qualified"
+      },
+      {
+        "id": "6816",
+        "nombre": "Gestión energía MT",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "6106",
+        "nombre": "Alcogreen - Suministro de transformador, montaje y comisionamiento",
+        "estado": "New"
+      },
+      {
+        "id": "6092",
+        "nombre": "Cargadores de Vehiculos electricos",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7810",
+        "nombre": "Ventilación forzada para Trafos Secos",
+        "estado": "New"
+      },
+      {
+        "id": "7809",
+        "nombre": "Supervisión Remota de Transformadores",
+        "estado": "New"
+      },
+      {
+        "id": "7790",
+        "nombre": "P55 - trafos secos 2 de 1250 y 1 de 1000 KVA",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7789",
+        "nombre": "Linkcenter - SSEE propia",
+        "estado": "New"
+      },
+      {
+        "id": "7788",
+        "nombre": "Linkcenter - Cargador vehiculo electrico",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7787",
+        "nombre": "LINKCENTER- 4 Trafos secos de 2000 KVA",
+        "estado": "New"
+      },
+      {
+        "id": "7781",
+        "nombre": "Provision de Terminales de Cobre",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7779",
+        "nombre": "Provision e Instalacion BMT 430",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7778",
+        "nombre": "Comisionamiento Equipos de Patio",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7776",
+        "nombre": "Venta de Descargadores",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7775",
+        "nombre": "Solicitud de cotización  Análisis técnico, respaldo y reinicio de equipo de medición ARTECHE 9300 - ELKEM",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7773",
+        "nombre": "Diagnostico 2 trafos 30MVA",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7771",
+        "nombre": "Alcoenergy - trafos secos 4 de 1500KVA",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7770",
+        "nombre": "Trafos secos Hospital de Itauguá- 1500 y 2500KVA",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7767",
+        "nombre": "Hospital Nacional de Concepcion -cargador vehiculo",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7766",
+        "nombre": "Conectores para Trafo",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7765",
+        "nombre": "Comisionamiento",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7762",
+        "nombre": "GARDEN - ESTACION DE CARGA",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7761",
+        "nombre": "COMISIONAMIENTO DGA 500",
+        "estado": "Oferta en revisión"
+      },
+      {
+        "id": "7758",
+        "nombre": "Venta de Estaciones De Carga WEMOG",
+        "estado": "New"
+      },
+      {
+        "id": "7756",
+        "nombre": "Servicio de Mantenimiento",
+        "estado": "New"
+      },
+      {
+        "id": "7753",
+        "nombre": "Campamento Ruta 01-trafos secos",
+        "estado": "New"
+      },
+      {
+        "id": "7744",
+        "nombre": "10 - EF 0808 PRODUTOS E SERVIÇOS PARA REPARO DE UM TRANSFORMADOR PRINCIPAL ELEVADOR MONOFÁSICO, 256MVA, 18 – 525/√3 kV, 60Hz",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7740",
+        "nombre": "Cambio del ventilador del Rectificador",
+        "estado": "New"
+      },
+      {
+        "id": "7736",
+        "nombre": "Amx Claro- paneles solares para sitios",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7712",
+        "nombre": "Mantenimiento Preventivo de Transformador de Potencia",
+        "estado": "New"
+      },
+      {
+        "id": "7706",
+        "nombre": "Consorcio del Norte -Cargadores electricos",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7702",
+        "nombre": "Cargadores EV - Lista de precios",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7701",
+        "nombre": "equipos de medición de motores ADX",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7699",
+        "nombre": "equipos de medicion de motores MTR105",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7697",
+        "nombre": "Generacion Fotovoltaica Centro Distribucion",
+        "estado": "Oferta en revisión"
+      },
+      {
+        "id": "7696",
+        "nombre": "Solucion fotovoltaica Sucursal Concepcion",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7695",
+        "nombre": "Solucion Fotovoltaica Automarket Cde",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7694",
+        "nombre": "Paneles solares",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7674",
+        "nombre": "Tratamiento de aceite",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7672",
+        "nombre": "Medicion de energia",
+        "estado": "New"
+      },
+      {
+        "id": "7670",
+        "nombre": "Paneles solares en Stock Martin Ledesma",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7667",
+        "nombre": "Hospital Nacional de Concepcion - trafos secos",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7666",
+        "nombre": "Nueva Torre Corporativa- trafos secos",
+        "estado": "New"
+      },
+      {
+        "id": "7665",
+        "nombre": "Optimun Software medición 400 medidores",
+        "estado": "New"
+      },
+      {
+        "id": "7664",
+        "nombre": "Puente Carmelo Peralta-Pto Murtiño - trafos secos",
+        "estado": "New"
+      },
+      {
+        "id": "7661",
+        "nombre": "Museo de Ciencias- trafos secos 1000KVA",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7647",
+        "nombre": "Arete Ita Enramada- trafos secos 1000 KVA",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7636",
+        "nombre": "Medición en sitios",
+        "estado": "New"
+      },
+      {
+        "id": "7630",
+        "nombre": "Precio referencial para Hospital de Itaugua",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7615",
+        "nombre": "Paneles solares Datacenter de NETLOGIC SRL",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7570",
+        "nombre": "Montaje y comisionamiento de equipos de patio SE 220kv",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7557",
+        "nombre": "Trafo Seco - Planta de tratamiento MRA",
+        "estado": "New"
+      },
+      {
+        "id": "7556",
+        "nombre": "Trafos Secos - Hospital de Curuguaty",
+        "estado": "New"
+      },
+      {
+        "id": "7555",
+        "nombre": "Trafos Secos - Hospital de Mcal. Estigarribia",
+        "estado": "New"
+      },
+      {
+        "id": "7554",
+        "nombre": "Gestión de Energía - Shopping China -Saltos",
+        "estado": "New"
+      },
+      {
+        "id": "7553",
+        "nombre": "Trafos Secos - Gran Hospital de Asunción",
+        "estado": "New"
+      },
+      {
+        "id": "7551",
+        "nombre": "Trafo Seco - Shopping China",
+        "estado": "New"
+      },
+      {
+        "id": "7550",
+        "nombre": "Trafo Seco - Palmanova Center",
+        "estado": "New"
+      },
+      {
+        "id": "7549",
+        "nombre": "Gestion de Energía - Palmanova Center",
+        "estado": "New"
+      },
+      {
+        "id": "7548",
+        "nombre": "Gestión de Energía - Upisa",
+        "estado": "New"
+      },
+      {
+        "id": "7547",
+        "nombre": "Trafos Secos -Edificio Lynk Center",
+        "estado": "New"
+      },
+      {
+        "id": "7544",
+        "nombre": "Gestión de Energía - Inpet",
+        "estado": "New"
+      },
+      {
+        "id": "7543",
+        "nombre": "Gestión de Energía -Edificio Lynk Center",
+        "estado": "New"
+      },
+      {
+        "id": "7542",
+        "nombre": "Trafo Seco - Civis XII",
+        "estado": "New"
+      },
+      {
+        "id": "7541",
+        "nombre": "Gestion de Energía - Civis XII",
+        "estado": "New"
+      },
+      {
+        "id": "7540",
+        "nombre": "Trafo Seco - Civis XI",
+        "estado": "New"
+      },
+      {
+        "id": "7539",
+        "nombre": "Trafo Seco - Civis X",
+        "estado": "New"
+      },
+      {
+        "id": "7538",
+        "nombre": "Gestión de Energía - Civis X",
+        "estado": "New"
+      },
+      {
+        "id": "7537",
+        "nombre": "Trafo Seco - Petra Imperiale",
+        "estado": "New"
+      },
+      {
+        "id": "7536",
+        "nombre": "Gestión de energía - Petra Imperiale",
+        "estado": "New"
+      },
+      {
+        "id": "7529",
+        "nombre": "Gestión de Energía Shopping del Sol",
+        "estado": "New"
+      },
+      {
+        "id": "7506",
+        "nombre": "Catastro como proveedor, Mantenimiento eléctrico",
+        "estado": "New"
+      },
+      {
+        "id": "7497",
+        "nombre": "Monitor de descargas parciales Iris Power",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7487",
+        "nombre": "Cambio de Tendido MT, de desnudo a protegida, a publicarse",
+        "estado": "New"
+      },
+      {
+        "id": "7483",
+        "nombre": "Sumergibles ANDE",
+        "estado": "New"
+      },
+      {
+        "id": "7442",
+        "nombre": "Mantenimiento de Motores Linde",
+        "estado": "New"
+      },
+      {
+        "id": "7390",
+        "nombre": "Provisión de accesorios de repuesto para Transport X",
+        "estado": "New"
+      },
+      {
+        "id": "7389",
+        "nombre": "Servicio de Chequeo para Transportx con gas patrón",
+        "estado": "New"
+      },
+      {
+        "id": "7388",
+        "nombre": "Filtros de Teflon p/ Transport x Paquete Mensual",
+        "estado": "New"
+      },
+      {
+        "id": "7387",
+        "nombre": "2 unidades Compactcity Megger para Ande - Proyecto LT 500kv Villa Hayes - SE MD",
+        "estado": "New"
+      },
+      {
+        "id": "7386",
+        "nombre": "Mantenimiento SE Cementera Yguazú",
+        "estado": "New"
+      },
+      {
+        "id": "7385",
+        "nombre": "Equipos de Medición estático de motores",
+        "estado": "New"
+      },
+      {
+        "id": "7384",
+        "nombre": "Mantenimiento de la SE Cecon",
+        "estado": "New"
+      },
+      {
+        "id": "7367",
+        "nombre": "Sincronismo de mando LPI 1817 SE Carmelo Peralta - Con TP Inductivo",
+        "estado": "New"
+      },
+      {
+        "id": "7366",
+        "nombre": "Regulador de Tensión para MT - Arroceras",
+        "estado": "New"
+      },
+      {
+        "id": "7345",
+        "nombre": "LPI 1817 Sincronismo de Mando SE Carmelo Peralta",
+        "estado": "New"
+      },
+      {
+        "id": "7344",
+        "nombre": "LPI 1816 Sincronismo de Mando SE Villa Hayes",
+        "estado": "New"
+      },
+      {
+        "id": "7340",
+        "nombre": "Sincronismo de mando LPI 1817 SE Carmelo Peralta",
+        "estado": "New"
+      },
+      {
+        "id": "7338",
+        "nombre": "Reparación de transformadores",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7337",
+        "nombre": "Sincronismo de mando LPI 1816",
+        "estado": "New"
+      },
+      {
+        "id": "7320",
+        "nombre": "Aisladores polimericos - TEXPI ENERSUR",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7318",
+        "nombre": "Provisión de Celdas MT",
+        "estado": "Proposition"
+      },
+      {
+        "id": "7315",
+        "nombre": "MTR105 Megger, Medidor de máquinas rotativas",
+        "estado": "New"
+      },
+      {
+        "id": "7299",
+        "nombre": "Monitores de Interruptores AT",
+        "estado": "New"
+      },
+      {
+        "id": "7295",
+        "nombre": "IEDs para Cargill",
+        "estado": "New"
+      },
+      {
+        "id": "7255",
+        "nombre": "Filtros de Teflon p/ Transport x",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "7254",
+        "nombre": "Medición de Calidad de Energía CECON S.A.E.",
+        "estado": "Qualified"
+      },
+      {
+        "id": "7162",
+        "nombre": "CURSO OMICRON BASICO - WEG",
+        "estado": "New"
+      },
+      {
+        "id": "6960",
+        "nombre": "Oportunidad Fotovoltaica WEG",
+        "estado": "New"
+      },
+      {
+        "id": "6959",
+        "nombre": "MTR105 para El Mua",
+        "estado": "New"
+      },
+      {
+        "id": "6957",
+        "nombre": "INMERSA - CONDENSADORES DE POTENCIA EN MT, PARA COMPENSACIÓN DE MOTOR DE 800Hp 2,4 kV",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "6832",
+        "nombre": "MTR105",
+        "estado": "Oferta enviada"
+      },
+      {
+        "id": "6828",
+        "nombre": "Gestión de energía con Optimun",
+        "estado": "Proposition"
+      }
+    ],
+    "alertas_semaforo": [],
+    "resumen_actividad": {
+      "correos_procesados": 5211,
+      "carpetas_modificadas": 0,
+      "intensidad_clientes": {
+        "Desconocido": 3,
+        "arteche.com": 1,
+        "cie.com.py": 1,
+        "weg.net": 1
+      }
+    }
+  },
+  "prompt_para_diapositivas": "\nEres el analista experto de Beigel SRL utilizando el \"Método del Águila\".\nUtiliza el siguiente JSON de datos para redactar el contenido textual exacto de las 12 diapositivas del reporte.\n\nDatos:\n{\n  \"rango_fechas\": {\n    \"inicio\": \"2026-05-04\",\n    \"fin\": \"2026-05-15\"\n  },\n  \"ventas_cerradas\": [\n    {\n      \"id\": \"7783\",\n      \"nombre\": \"LPI ANDE 1753 SE LOMA PLATA Y SE POZO COLORADO - COMISIONAMIENTO DE MYD GE\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7708\",\n      \"nombre\": \"Movimiento de Trafo Supervisado con verificación de Registradores de Impacto.\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7617\",\n      \"nombre\": \"Alquiler de máquina de aire seco\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7332\",\n      \"nombre\": \"Reles Auxiliares Arteche\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7309\",\n      \"nombre\": \"EF 0379-25 - Equipo de medicion online de gases disueltos en aceite aislante MINITRANS - COMISION DE MYD GE\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7250\",\n      \"nombre\": \"Sincronismo de Mando p/ Banco de Capacitores LPI 1814\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7152\",\n      \"nombre\": \"Montaje - Transformador de potencia\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7107\",\n      \"nombre\": \"Transformador de potencia, trifásico, inmerso en aceite mineral aislante, 10 MVA, 66/23 kV Cargill Paraguay\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7071\",\n      \"nombre\": \"Medición de Calidad de Energía VMA S.A.\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"6844\",\n      \"nombre\": \"441197 - VEX 275-24 Mantenimiento y Soporte Técnico Anual de las Licencias del Software de Telemedición OPTIMUN\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"5947\",\n      \"nombre\": \"PASEO GUARANÍ - PUNTOS DE MEDICIONES E INTEGRACION AL OPTIMUM\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7780\",\n      \"nombre\": \"DM 9300-Arteche Analisis y restablecimiento\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7713\",\n      \"nombre\": \"ELKEM - Mantenimiento correctivo de Interruptor MT\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7711\",\n      \"nombre\": \"Relés Auxiliares Arteche\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7705\",\n      \"nombre\": \"MyD para transformador Cargill\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7704\",\n      \"nombre\": \"Transformador de Distribución en Aceite de 1500KVA WEG\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7682\",\n      \"nombre\": \"MyD para transformador Cargill\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7616\",\n      \"nombre\": \"Supervisión de reemplazo de TCs SE Luque\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7573\",\n      \"nombre\": \"Montaje - Transformador de potencia\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7558\",\n      \"nombre\": \"Electricistas de refuerzo para trabajos en BT\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7519\",\n      \"nombre\": \"Alquiler de maleta Omicron CMC 356\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7509\",\n      \"nombre\": \"Provisión de  Bolsas para tanque de expansión de transformadores\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7304\",\n      \"nombre\": \"Reparación de Averías Trafo 220/23KV - 80MVA NS. 1085688022 - SE Luque\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7301\",\n      \"nombre\": \"WEG Transformador 10MVA 66-23kv - ENERSUR\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7221\",\n      \"nombre\": \"Alquiler de equipo de Vacío con Operario\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7165\",\n      \"nombre\": \"Transformadores •\\t3 transformadores reductores de 2000 kVA. •\\t3 transformadores reductores de 1600 kVA. * 4 trafos elevadores 1.500kva - SE Parglass Concretmix\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7159\",\n      \"nombre\": \"Recepción Técnica de Suministro - 5 Trafos de Potencia\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7155\",\n      \"nombre\": \"Secadores para transformadores\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7124\",\n      \"nombre\": \"MyD para transformador Cargill\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7087\",\n      \"nombre\": \"Mantenimiento de SE Elkem\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7048\",\n      \"nombre\": \"Ensayo Eléctrico de Transformador de 1.6MVA 6.6/0.4KV\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"6937\",\n      \"nombre\": \"Oportunidad de Fernando Piccinini\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"6132\",\n      \"nombre\": \"Minitrans\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7132\",\n      \"nombre\": \"Oportunidad de Cayo Torres\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7794\",\n      \"nombre\": \"Combustible Utilizado En Generador\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7777\",\n      \"nombre\": \"MONTAJE Y DESMONTAJE TRAFO WEG - CARGILL\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7755\",\n      \"nombre\": \"Alquiler de Generador 220kva\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7692\",\n      \"nombre\": \"Transformadores •\\t3 transformadores reductores de 2000 kVA. •\\t3 transformadores reductores de 1600 kVA. * 4 trafos elevadores 1.500kva - SE Parglass Concretmix\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7676\",\n      \"nombre\": \"Cargadores para vehiculos\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7655\",\n      \"nombre\": \"LPI ANDE 1753 - SE LOMA PLATA  Y POZO COLORADO - SUPERVISION DE TRAFO\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7450\",\n      \"nombre\": \"Alquiler de maleta Omicron CMC 356\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7411\",\n      \"nombre\": \"Medición y diagnóstico de Celdas\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7317\",\n      \"nombre\": \"Medición y diagnóstico de Celdas\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7259\",\n      \"nombre\": \"Penguin Kit de instalación DGA500 y PGA\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7258\",\n      \"nombre\": \"Medición de Calidad de Energía\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7166\",\n      \"nombre\": \"CIE - Supervisión y Medición  SE Alto Parana\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"7136\",\n      \"nombre\": \"Cambio de Bobina de Minima Tensión para cobro de pendiente\",\n      \"estado\": \"Won\"\n    },\n    {\n      \"id\": \"6940\",\n      \"nombre\": \"LPI 1600 - RELE DE MANDO DE SINCRONIZACION VIZIMAX - ALTERNATIVA UPGRADE FUTURO\",\n      \"estado\": \"Won\"\n    }\n  ],\n  \"pipeline_activo\": [\n    {\n      \"id\": \"7560\",\n      \"nombre\": \"Oportunidad de CONO SRL\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7324\",\n      \"nombre\": \"Itaipu EF 0808 Reparacion de transformador 500kv\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"5926\",\n      \"nombre\": \"SUMINISTRO DEL METRY SENSE DE MEGGER\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7808\",\n      \"nombre\": \"Uso del Generador y gastos derivados\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7760\",\n      \"nombre\": \"Elken - Mantenimiento de Conmutador bajo Carga\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7759\",\n      \"nombre\": \"MR Repuestos para Ande\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7748\",\n      \"nombre\": \"Hospital Nacional de Itaugua\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7738\",\n      \"nombre\": \"Verificación de instalación eléctrica en BT Unicentro S.A. Mcal López\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7735\",\n      \"nombre\": \"Provisión de SE tipo convencional WEG 50MVA\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7734\",\n      \"nombre\": \"Provisión de SE tipo SKID WEG 50MVA\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7700\",\n      \"nombre\": \"Protección diferencial para barras SE presidente Franco\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7691\",\n      \"nombre\": \"Extracción y análisis de aceite dielectrico\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7680\",\n      \"nombre\": \"Cargadores WEMOB 23kW - Perseverancia\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7629\",\n      \"nombre\": \"Mantenimiento de SE Iguazu Cementos\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7628\",\n      \"nombre\": \"Mantenimiento de SE Clyfsa\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7627\",\n      \"nombre\": \"Mantenimiento de SE Cargill\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7626\",\n      \"nombre\": \"Mantenimiento de SE Caiassa\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7625\",\n      \"nombre\": \"Mantenimiento de SE ADM\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7624\",\n      \"nombre\": \"Mantenimiento de SE Elkem\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7569\",\n      \"nombre\": \"Cargadores WEG para vehículos eléctricos\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7561\",\n      \"nombre\": \"Chortitzer - Mantenimiento de Conmutador bajo Carga\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7552\",\n      \"nombre\": \"Gestión de Energía - Grupo Cogorno\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7545\",\n      \"nombre\": \"Medición de Energía - Amandau\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7535\",\n      \"nombre\": \"Distrito Perseverancia - Subestación de 66KV\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7534\",\n      \"nombre\": \"Paseo 55 - Trafo seco\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7533\",\n      \"nombre\": \"Torre corporativa del Shopping del Sol- Trafo Seco\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7532\",\n      \"nombre\": \"Trafo Seco Museo de Ciencias\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7531\",\n      \"nombre\": \"Gestion de Energía - Barrio Cerrado\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7530\",\n      \"nombre\": \"Trafos Seco - Arete Ita Enramada\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7528\",\n      \"nombre\": \"Penta SA - Shopping Plaza Norte\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7523\",\n      \"nombre\": \"Gestion de energia + medidores\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7514\",\n      \"nombre\": \"M&D p/ Reactores de 20 MVAr\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7510\",\n      \"nombre\": \"Provisión de Transformador de Potencia 50MVA\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7484\",\n      \"nombre\": \"Provisión de transformador WEG 66/23KV 50MVA\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7444\",\n      \"nombre\": \"LPI 1753 CHACO RECEPCION TECNICA TRAFO WEG\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7441\",\n      \"nombre\": \"Montaje de Celdas MT\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7436\",\n      \"nombre\": \"Montaje y puesta en marcha de Transformadores de distribución\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7434\",\n      \"nombre\": \"Optimun Balance de energia\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7419\",\n      \"nombre\": \"Enersur - Transformadores Secos Weg\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7415\",\n      \"nombre\": \"Montaje de Transformadores de Distribución - Parglass\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7391\",\n      \"nombre\": \"Oportunidad de Cicardos\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7348\",\n      \"nombre\": \"ENERGIAS DEL PARAGUAY S.A.- REM\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7347\",\n      \"nombre\": \"Oportunidad de IT S.A.\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7316\",\n      \"nombre\": \"MTR105 Medidor de Máquinas Rotativas\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7294\",\n      \"nombre\": \"Megado de motores INPAGAS SRL (LINDE)\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7245\",\n      \"nombre\": \"Mediciones de calidad de energia\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7201\",\n      \"nombre\": \"LT Vallemi-Carmelo Peralta LPI 1817\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7196\",\n      \"nombre\": \"Penguin Datacenter 10MVA en 23kv\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7188\",\n      \"nombre\": \"Iguazu-Chaquetas de silicona para aisladores\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7187\",\n      \"nombre\": \"INC - Chaquetas de silicona para aisladores\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7185\",\n      \"nombre\": \"Ensayos Eléctrico Estáticos y Dinámicos para Motores\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7183\",\n      \"nombre\": \"Montajes y mediciones eléctricas\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7089\",\n      \"nombre\": \"Verificación de Bancos de Capacitores Unicentro S.A.\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7086\",\n      \"nombre\": \"PDD con Optimum Jade Park Asunción\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7075\",\n      \"nombre\": \"Provisión e instalación de Analizador de Energía - INMERSA\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6950\",\n      \"nombre\": \"SE Fernheim Ampliación SE Filadelfia\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"6932\",\n      \"nombre\": \"Oportunidad de Petroquim\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6842\",\n      \"nombre\": \"Paneles fotovoltaico hogar\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"6831\",\n      \"nombre\": \"Servicio de ensayos eléctricos para motores de media - INMERSA\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"6830\",\n      \"nombre\": \"INSUIN SA Medición de Calidad de Energía\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6829\",\n      \"nombre\": \"AMI Condominio La Roca - San Bernardino\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"6826\",\n      \"nombre\": \"Fotovoltaico Petra\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6100\",\n      \"nombre\": \"Distrito perseverancia\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"5943\",\n      \"nombre\": \"Servicio de Consultoría para Sistemas de Comunicación y Control - ID 442522 - LPN (Plan Director)\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"5922\",\n      \"nombre\": \"PD SUMERGIBLE\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7737\",\n      \"nombre\": \"SE tipo Convencional 50MVA Fernheim Redes y Servicios\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7502\",\n      \"nombre\": \"Reparacion de transformadores\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7501\",\n      \"nombre\": \"Transport X2, Analizador de Gases portátil\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7500\",\n      \"nombre\": \"Transport X\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7498\",\n      \"nombre\": \"VEX optimun a ser lanzada\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7463\",\n      \"nombre\": \"MTR 105 - Mantenimiento electrico Tecnomyl\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7408\",\n      \"nombre\": \"467614 - Adquisición de Repuestos para el CER\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7407\",\n      \"nombre\": \"467540 - Adquisición de Reguladores de Tensión para los Grupos 3 y 4 de la Central Acaray\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7393\",\n      \"nombre\": \"Analítica Integrada para la Gestión de Distribución de Energía Eléctrica - Licitacion Planificada ID 458965\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7378\",\n      \"nombre\": \"Herramienta de Ingeniería para Proyectos - ATLAN\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7343\",\n      \"nombre\": \"Sincronizador para Banco de Capacitores tipo shunt\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7314\",\n      \"nombre\": \"Medición de Calidad de Energía  Trafo 1\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7302\",\n      \"nombre\": \"Transport x para ANDE\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7189\",\n      \"nombre\": \"Garden Automotores\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7104\",\n      \"nombre\": \"SKID 50MVA Fernheim Redes y Servicios\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7065\",\n      \"nombre\": \"Transformadores\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"6986\",\n      \"nombre\": \"Oportunidad de Garden Automotores S.A.\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"6968\",\n      \"nombre\": \"Oportunidad de Unicentro S.A.\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6925\",\n      \"nombre\": \"Servicio de Reparación de Sub-Estación Planificada - 410215\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6913\",\n      \"nombre\": \"Provisión de Inversor de 10KW\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6912\",\n      \"nombre\": \"Oportunidad de Nicolas Martinez\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"6816\",\n      \"nombre\": \"Gestión energía MT\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"6106\",\n      \"nombre\": \"Alcogreen - Suministro de transformador, montaje y comisionamiento\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6092\",\n      \"nombre\": \"Cargadores de Vehiculos electricos\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7810\",\n      \"nombre\": \"Ventilación forzada para Trafos Secos\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7809\",\n      \"nombre\": \"Supervisión Remota de Transformadores\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7790\",\n      \"nombre\": \"P55 - trafos secos 2 de 1250 y 1 de 1000 KVA\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7789\",\n      \"nombre\": \"Linkcenter - SSEE propia\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7788\",\n      \"nombre\": \"Linkcenter - Cargador vehiculo electrico\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7787\",\n      \"nombre\": \"LINKCENTER- 4 Trafos secos de 2000 KVA\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7781\",\n      \"nombre\": \"Provision de Terminales de Cobre\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7779\",\n      \"nombre\": \"Provision e Instalacion BMT 430\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7778\",\n      \"nombre\": \"Comisionamiento Equipos de Patio\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7776\",\n      \"nombre\": \"Venta de Descargadores\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7775\",\n      \"nombre\": \"Solicitud de cotización  Análisis técnico, respaldo y reinicio de equipo de medición ARTECHE 9300 - ELKEM\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7773\",\n      \"nombre\": \"Diagnostico 2 trafos 30MVA\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7771\",\n      \"nombre\": \"Alcoenergy - trafos secos 4 de 1500KVA\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7770\",\n      \"nombre\": \"Trafos secos Hospital de Itauguá- 1500 y 2500KVA\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7767\",\n      \"nombre\": \"Hospital Nacional de Concepcion -cargador vehiculo\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7766\",\n      \"nombre\": \"Conectores para Trafo\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7765\",\n      \"nombre\": \"Comisionamiento\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7762\",\n      \"nombre\": \"GARDEN - ESTACION DE CARGA\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7761\",\n      \"nombre\": \"COMISIONAMIENTO DGA 500\",\n      \"estado\": \"Oferta en revisión\"\n    },\n    {\n      \"id\": \"7758\",\n      \"nombre\": \"Venta de Estaciones De Carga WEMOG\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7756\",\n      \"nombre\": \"Servicio de Mantenimiento\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7753\",\n      \"nombre\": \"Campamento Ruta 01-trafos secos\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7744\",\n      \"nombre\": \"10 - EF 0808 PRODUTOS E SERVIÇOS PARA REPARO DE UM TRANSFORMADOR PRINCIPAL ELEVADOR MONOFÁSICO, 256MVA, 18 – 525/√3 kV, 60Hz\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7740\",\n      \"nombre\": \"Cambio del ventilador del Rectificador\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7736\",\n      \"nombre\": \"Amx Claro- paneles solares para sitios\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7712\",\n      \"nombre\": \"Mantenimiento Preventivo de Transformador de Potencia\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7706\",\n      \"nombre\": \"Consorcio del Norte -Cargadores electricos\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7702\",\n      \"nombre\": \"Cargadores EV - Lista de precios\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7701\",\n      \"nombre\": \"equipos de medición de motores ADX\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7699\",\n      \"nombre\": \"equipos de medicion de motores MTR105\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7697\",\n      \"nombre\": \"Generacion Fotovoltaica Centro Distribucion\",\n      \"estado\": \"Oferta en revisión\"\n    },\n    {\n      \"id\": \"7696\",\n      \"nombre\": \"Solucion fotovoltaica Sucursal Concepcion\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7695\",\n      \"nombre\": \"Solucion Fotovoltaica Automarket Cde\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7694\",\n      \"nombre\": \"Paneles solares\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7674\",\n      \"nombre\": \"Tratamiento de aceite\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7672\",\n      \"nombre\": \"Medicion de energia\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7670\",\n      \"nombre\": \"Paneles solares en Stock Martin Ledesma\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7667\",\n      \"nombre\": \"Hospital Nacional de Concepcion - trafos secos\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7666\",\n      \"nombre\": \"Nueva Torre Corporativa- trafos secos\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7665\",\n      \"nombre\": \"Optimun Software medición 400 medidores\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7664\",\n      \"nombre\": \"Puente Carmelo Peralta-Pto Murtiño - trafos secos\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7661\",\n      \"nombre\": \"Museo de Ciencias- trafos secos 1000KVA\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7647\",\n      \"nombre\": \"Arete Ita Enramada- trafos secos 1000 KVA\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7636\",\n      \"nombre\": \"Medición en sitios\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7630\",\n      \"nombre\": \"Precio referencial para Hospital de Itaugua\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7615\",\n      \"nombre\": \"Paneles solares Datacenter de NETLOGIC SRL\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7570\",\n      \"nombre\": \"Montaje y comisionamiento de equipos de patio SE 220kv\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7557\",\n      \"nombre\": \"Trafo Seco - Planta de tratamiento MRA\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7556\",\n      \"nombre\": \"Trafos Secos - Hospital de Curuguaty\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7555\",\n      \"nombre\": \"Trafos Secos - Hospital de Mcal. Estigarribia\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7554\",\n      \"nombre\": \"Gestión de Energía - Shopping China -Saltos\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7553\",\n      \"nombre\": \"Trafos Secos - Gran Hospital de Asunción\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7551\",\n      \"nombre\": \"Trafo Seco - Shopping China\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7550\",\n      \"nombre\": \"Trafo Seco - Palmanova Center\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7549\",\n      \"nombre\": \"Gestion de Energía - Palmanova Center\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7548\",\n      \"nombre\": \"Gestión de Energía - Upisa\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7547\",\n      \"nombre\": \"Trafos Secos -Edificio Lynk Center\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7544\",\n      \"nombre\": \"Gestión de Energía - Inpet\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7543\",\n      \"nombre\": \"Gestión de Energía -Edificio Lynk Center\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7542\",\n      \"nombre\": \"Trafo Seco - Civis XII\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7541\",\n      \"nombre\": \"Gestion de Energía - Civis XII\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7540\",\n      \"nombre\": \"Trafo Seco - Civis XI\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7539\",\n      \"nombre\": \"Trafo Seco - Civis X\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7538\",\n      \"nombre\": \"Gestión de Energía - Civis X\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7537\",\n      \"nombre\": \"Trafo Seco - Petra Imperiale\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7536\",\n      \"nombre\": \"Gestión de energía - Petra Imperiale\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7529\",\n      \"nombre\": \"Gestión de Energía Shopping del Sol\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7506\",\n      \"nombre\": \"Catastro como proveedor, Mantenimiento eléctrico\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7497\",\n      \"nombre\": \"Monitor de descargas parciales Iris Power\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7487\",\n      \"nombre\": \"Cambio de Tendido MT, de desnudo a protegida, a publicarse\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7483\",\n      \"nombre\": \"Sumergibles ANDE\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7442\",\n      \"nombre\": \"Mantenimiento de Motores Linde\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7390\",\n      \"nombre\": \"Provisión de accesorios de repuesto para Transport X\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7389\",\n      \"nombre\": \"Servicio de Chequeo para Transportx con gas patrón\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7388\",\n      \"nombre\": \"Filtros de Teflon p/ Transport x Paquete Mensual\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7387\",\n      \"nombre\": \"2 unidades Compactcity Megger para Ande - Proyecto LT 500kv Villa Hayes - SE MD\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7386\",\n      \"nombre\": \"Mantenimiento SE Cementera Yguazú\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7385\",\n      \"nombre\": \"Equipos de Medición estático de motores\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7384\",\n      \"nombre\": \"Mantenimiento de la SE Cecon\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7367\",\n      \"nombre\": \"Sincronismo de mando LPI 1817 SE Carmelo Peralta - Con TP Inductivo\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7366\",\n      \"nombre\": \"Regulador de Tensión para MT - Arroceras\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7345\",\n      \"nombre\": \"LPI 1817 Sincronismo de Mando SE Carmelo Peralta\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7344\",\n      \"nombre\": \"LPI 1816 Sincronismo de Mando SE Villa Hayes\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7340\",\n      \"nombre\": \"Sincronismo de mando LPI 1817 SE Carmelo Peralta\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7338\",\n      \"nombre\": \"Reparación de transformadores\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7337\",\n      \"nombre\": \"Sincronismo de mando LPI 1816\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7320\",\n      \"nombre\": \"Aisladores polimericos - TEXPI ENERSUR\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7318\",\n      \"nombre\": \"Provisión de Celdas MT\",\n      \"estado\": \"Proposition\"\n    },\n    {\n      \"id\": \"7315\",\n      \"nombre\": \"MTR105 Megger, Medidor de máquinas rotativas\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7299\",\n      \"nombre\": \"Monitores de Interruptores AT\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7295\",\n      \"nombre\": \"IEDs para Cargill\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"7255\",\n      \"nombre\": \"Filtros de Teflon p/ Transport x\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"7254\",\n      \"nombre\": \"Medición de Calidad de Energía CECON S.A.E.\",\n      \"estado\": \"Qualified\"\n    },\n    {\n      \"id\": \"7162\",\n      \"nombre\": \"CURSO OMICRON BASICO - WEG\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6960\",\n      \"nombre\": \"Oportunidad Fotovoltaica WEG\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6959\",\n      \"nombre\": \"MTR105 para El Mua\",\n      \"estado\": \"New\"\n    },\n    {\n      \"id\": \"6957\",\n      \"nombre\": \"INMERSA - CONDENSADORES DE POTENCIA EN MT, PARA COMPENSACIÓN DE MOTOR DE 800Hp 2,4 kV\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"6832\",\n      \"nombre\": \"MTR105\",\n      \"estado\": \"Oferta enviada\"\n    },\n    {\n      \"id\": \"6828\",\n      \"nombre\": \"Gestión de energía con Optimun\",\n      \"estado\": \"Proposition\"\n    }\n  ],\n  \"alertas_semaforo\": [],\n  \"resumen_actividad\": {\n    \"correos_procesados\": 5211,\n    \"carpetas_modificadas\": 0,\n    \"intensidad_clientes\": {\n      \"Desconocido\": 3,\n      \"arteche.com\": 1,\n      \"cie.com.py\": 1,\n      \"weg.net\": 1\n    }\n  }\n}\n\nEstructura de las 12 diapositivas esperadas (devuelve sólo el texto listo para usar):\n1. Portada\n2. Resumen Ejecutivo (Ventas cerradas vs pipeline)\n3. Alertas Semáforo (Carpetas sin respaldo Odoo)\n4. Intensidad de Gestión (Top clientes por interacciones)\n5. Análisis de Correos (Eficiencia de comunicación)\n6. Oportunidades Clave en Progreso\n7. Oportunidades Ganadas (Éxitos)\n8. Brechas de Sincronización (Físico vs Digital)\n9. Acciones Correctivas\n10. Proyección a Corto Plazo\n11. Recomendaciones Estratégicas\n12. Cierre y Próximos Pasos\n"
+}
