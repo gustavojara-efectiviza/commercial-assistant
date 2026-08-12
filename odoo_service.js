@@ -53,13 +53,15 @@ function obtenerModeloCrmLead(uid) {
     });
 }
 
-function agendarActividadEnOdoo(uid, leadId, modelId, activityTypeId, summary, note) {
-    let fecha = new Date();
-    fecha.setDate(fecha.getDate() + 1);
-    while (fecha.getDay() === 0 || fecha.getDay() === 6) {
+function agendarActividadEnOdoo(uid, leadId, modelId, activityTypeId, summary, note, fechaString = null) {
+    if (!fechaString) {
+        let fecha = new Date();
         fecha.setDate(fecha.getDate() + 1);
+        while (fecha.getDay() === 0 || fecha.getDay() === 6) {
+            fecha.setDate(fecha.getDate() + 1);
+        }
+        fechaString = fecha.toISOString().split('T')[0];
     }
-    const fechaString = fecha.toISOString().split('T')[0];
 
     return new Promise((resolve, reject) => {
         clientObject.methodCall('execute_kw', [
@@ -108,11 +110,68 @@ function obtenerActividadesDeHoy(uid) {
     });
 }
 
+function obtenerActividadesDeLead(uid, leadId) {
+    return new Promise((resolve, reject) => {
+        clientObject.methodCall('execute_kw', [
+            odooDb, uid, odooPass, 'mail.activity', 'search_read',
+            [[
+                ['res_model', '=', 'crm.lead'],
+                ['res_id', '=', leadId]
+            ]],
+            { 
+                fields: ['id', 'res_id', 'res_name', 'activity_type_id', 'summary', 'date_deadline', 'state'],
+                order: 'date_deadline asc'
+            }
+        ], function (error, activities) {
+            if (error) reject(error); else resolve(activities);
+        });
+    });
+}
+
+function marcarActividadHecha(uid, activityId, feedback = '') {
+    return new Promise((resolve, reject) => {
+        clientObject.methodCall('execute_kw', [
+            odooDb, uid, odooPass, 'mail.activity', 'action_feedback',
+            [[activityId]],
+            { feedback: feedback }
+        ], function (error, result) {
+            if (error) reject(error); else resolve(result);
+        });
+    });
+}
+
+function cancelarActividad(uid, activityId) {
+    return new Promise((resolve, reject) => {
+        clientObject.methodCall('execute_kw', [
+            odooDb, uid, odooPass, 'mail.activity', 'unlink',
+            [[activityId]]
+        ], function (error, result) {
+            if (error) reject(error); else resolve(result);
+        });
+    });
+}
+
+function registrarNotaInterna(uid, leadId, nota) {
+    return new Promise((resolve, reject) => {
+        clientObject.methodCall('execute_kw', [
+            odooDb, uid, odooPass, 'crm.lead', 'message_post',
+            [[leadId]],
+            { body: nota, message_type: 'comment', subtype_xmlid: 'mail.mt_note' }
+        ], function (error, result) {
+            if (error) reject(error); else resolve(result);
+        });
+    });
+}
+
 module.exports = {
     autenticarOdoo,
     buscarOportunidades,
     obtenerModeloCrmLead,
     agendarActividadEnOdoo,
     actualizarLeadEnOdoo,
-    obtenerActividadesDeHoy
+    obtenerActividadesDeHoy,
+    obtenerActividadesDeLead,
+    marcarActividadHecha,
+    cancelarActividad,
+    registrarNotaInterna
 };
