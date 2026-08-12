@@ -1,13 +1,14 @@
 const TelegramBot = require('node-telegram-bot-api');
-const admin = require('firebase-admin');
+const { initializeApp, getApps, cert } = require('firebase-admin/app');
+const { getFirestore, FieldValue } = require('firebase-admin/firestore');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const odoo = require('../odoo_service');
 
 // 1. INICIALIZAR FIREBASE ADMIN (SEGURO PARA SERVERLESS)
-if (!admin.apps.length) {
+if (!getApps().length) {
     try {
-        admin.initializeApp({
-            credential: admin.credential.cert({
+        initializeApp({
+            credential: cert({
                 projectId: process.env.FIREBASE_PROJECT_ID,
                 clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
                 privateKey: process.env.FIREBASE_PRIVATE_KEY ? process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n') : undefined,
@@ -18,7 +19,7 @@ if (!admin.apps.length) {
         console.error("Error inicializando Firebase:", error);
     }
 }
-const db = admin.firestore();
+const db = getFirestore();
 
 // 2. INICIALIZAR SERVICIOS
 const token = process.env.TELEGRAM_BOT_TOKEN;
@@ -169,7 +170,7 @@ async function procesarActualizacion(update) {
                 // Avanzar cola
                 await sessionRef.update({
                     esperandoEdicion: false,
-                    draftData: admin.firestore.FieldValue.delete(),
+                    draftData: FieldValue.delete(),
                     currentIndex: data.currentIndex + 1
                 });
 
@@ -279,7 +280,7 @@ async function procesarActualizacion(update) {
             }
 
             await sessionRef.update({ 
-                draftData: admin.firestore.FieldValue.delete(),
+                draftData: FieldValue.delete(),
                 currentIndex: sessionData.currentIndex + 1 
             });
             const updatedDoc = await sessionRef.get();
