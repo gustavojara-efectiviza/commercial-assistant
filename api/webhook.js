@@ -1,4 +1,5 @@
-const TelegramBot = require('node-telegram-bot-api');
+const telegramModule = require('node-telegram-bot-api');
+const TelegramBot = telegramModule.default || telegramModule;
 const { initializeApp, getApps, cert } = require('firebase-admin/app');
 const { getFirestore, FieldValue } = require('firebase-admin/firestore');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
