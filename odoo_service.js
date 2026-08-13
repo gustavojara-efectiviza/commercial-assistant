@@ -20,9 +20,7 @@ function autenticarOdoo() {
 }
 
 function buscarOportunidades(uid, limite = 5) {
-    const hace7DiasDate = new Date();
-    hace7DiasDate.setDate(hace7DiasDate.getDate() - 7);
-    const hace7DiasString = hace7DiasDate.toISOString().split('T')[0] + " 00:00:00";
+    const inicioDeHoy = new Date().toISOString().split('T')[0] + " 00:00:00";
     
     return new Promise((resolve, reject) => {
         clientObject.methodCall('execute_kw', [
@@ -30,7 +28,7 @@ function buscarOportunidades(uid, limite = 5) {
             [[
                 ['active', '=', true],
                 ['type', '=', 'opportunity'],
-                ['write_date', '<', hace7DiasString],
+                ['write_date', '<', inicioDeHoy],
                 ['stage_id', 'not in', [4, 7, 8]]
             ]],
             { 
