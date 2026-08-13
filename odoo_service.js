@@ -112,12 +112,14 @@ function obtenerActividadesDeHoy(uid) {
 }
 
 function obtenerActividadesDeLead(uid, leadId) {
+    const hoyString = new Date().toISOString().split('T')[0];
     return new Promise((resolve, reject) => {
         clientObject.methodCall('execute_kw', [
             odooDb, uid, odooPass, 'mail.activity', 'search_read',
             [[
                 ['res_model', '=', 'crm.lead'],
-                ['res_id', '=', leadId]
+                ['res_id', '=', leadId],
+                ['date_deadline', '<=', hoyString]
             ]],
             { 
                 fields: ['id', 'res_id', 'res_name', 'activity_type_id', 'summary', 'date_deadline', 'state'],
@@ -152,6 +154,17 @@ function cancelarActividad(uid, activityId) {
     });
 }
 
+function reagendarActividad(uid, activityId, fechaString) {
+    return new Promise((resolve, reject) => {
+        clientObject.methodCall('execute_kw', [
+            odooDb, uid, odooPass, 'mail.activity', 'write',
+            [[activityId], { date_deadline: fechaString }]
+        ], function (error, result) {
+            if (error) reject(error); else resolve(result);
+        });
+    });
+}
+
 function registrarNotaInterna(uid, leadId, nota) {
     return new Promise((resolve, reject) => {
         clientObject.methodCall('execute_kw', [
@@ -174,5 +187,6 @@ module.exports = {
     obtenerActividadesDeLead,
     marcarActividadHecha,
     cancelarActividad,
+    reagendarActividad,
     registrarNotaInterna
 };

@@ -71,6 +71,8 @@ async function procesarSiguienteEnCola(chatId, sessionDoc) {
             const inline_keyboard = [
                 [ { text: '✅ Simplemente Marcar Hecha', callback_data: `ACTDONE_${act.id}` } ],
                 [ { text: '📝 Hecha + Siguiente Paso', callback_data: `ACTNEXT_${act.id}` } ],
+                [ { text: '📅 Reagendar', callback_data: `ACTRESCHEDULE_${act.id}` } ],
+                [ { text: '⏭️ Pasar al siguiente', callback_data: `ACTSKIP_${act.id}` } ],
                 [ { text: '❌ Cancelar Tarea', callback_data: `ACTCANCEL_${act.id}` } ]
             ];
 
@@ -206,6 +208,26 @@ async function procesarActualizacion(update) {
                 return;
             }
 
+            // Si esperamos fecha de reagendamiento
+            if (data.estado === 'AWAITING_RESCHEDULE_DATE') {
+                await bot.sendMessage(chatId, "⏳ Reagendando tarea en Odoo...");
+                try {
+                    const uid = await odoo.autenticarOdoo();
+                    const fechaParseada = await parsearFecha(text);
+                    await odoo.reagendarActividad(uid, data.actId, fechaParseada);
+                    await bot.sendMessage(chatId, `✅ Tarea reagendada para el ${fechaParseada}.`);
+                } catch(e) {
+                    console.error(e);
+                    await bot.sendMessage(chatId, "❌ Error al reagendar tarea.");
+                }
+                
+                await sessionRef.update({ estado: 'IDLE', actId: FieldValue.delete() });
+                const updatedDoc = await sessionRef.get();
+                // Volvemos a procesar, ahora la tarea es a futuro, así que no saldrá como pendiente
+                await procesarSiguienteEnCola(chatId, updatedDoc); 
+                return;
+            }
+
             // Si esperamos feedback para cerrar una tarea
             if (data.estado === 'AWAITING_ACT_FEEDBACK') {
                 await bot.sendMessage(chatId, "⏳ Cerrando tarea en Odoo...");
@@ -303,6 +325,22 @@ async function procesarActualizacion(update) {
                 await bot.answerCallbackQuery(query.id);
                 await sessionRef.update({ estado: 'AWAITING_ACT_FEEDBACK', actId: actId });
                 await bot.editMessageText(`📝 Por favor, escribe en este chat el comentario o resultado de esta tarea para darla por terminada.`, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' });
+                return;
+            }
+
+            if (action === 'ACTRESCHEDULE') {
+                await bot.answerCallbackQuery(query.id);
+                await sessionRef.update({ estado: 'AWAITING_RESCHEDULE_DATE', actId: actId });
+                await bot.editMessageText(`📅 *Reagendar Tarea*\n¿Para cuándo quieres reagendarla? (Ej. "Mañana", "El lunes a las 10").`, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' });
+                return;
+            }
+
+            if (action === 'ACTSKIP') {
+                await bot.answerCallbackQuery(query.id);
+                await bot.editMessageText(`⏭️ Tarea ignorada por ahora.`, { chat_id: chatId, message_id: messageId });
+                await sessionRef.update({ currentIndex: sessionData.currentIndex + 1 });
+                const updatedDoc = await sessionRef.get();
+                await procesarSiguienteEnCola(chatId, updatedDoc);
                 return;
             }
         }
