@@ -129,6 +129,37 @@ function obtenerActividadesDeLead(uid, leadId) {
     });
 }
 
+function obtenerMensajesImportantesDeLead(uid, leadId) {
+    return new Promise((resolve, reject) => {
+        clientObject.methodCall('execute_kw', [
+            odooDb, uid, odooPass, 'mail.message', 'search_read',
+            [[
+                ['model', '=', 'crm.lead'],
+                ['res_id', '=', leadId],
+                ['message_type', 'in', ['comment', 'email']]
+            ]],
+            { 
+                fields: ['id', 'author_id', 'body', 'partner_ids', 'date'],
+                limit: 10,
+                order: 'id desc'
+            }
+        ], function (error, messages) {
+            if (error) {
+                reject(error);
+            } else {
+                // ID de Edgar Uner: 458, ID de Gustavo: 463
+                const mensajesImportantes = messages.filter(m => {
+                    const esDeEdgar = m.author_id && m.author_id[0] === 458;
+                    const esMencion = m.partner_ids && m.partner_ids.includes(463);
+                    return esDeEdgar || esMencion;
+                });
+                // Devolver el más reciente (si hay alguno)
+                resolve(mensajesImportantes.length > 0 ? mensajesImportantes[0] : null);
+            }
+        });
+    });
+}
+
 function marcarActividadHecha(uid, activityId, feedback = '') {
     return new Promise((resolve, reject) => {
         clientObject.methodCall('execute_kw', [
@@ -183,6 +214,7 @@ module.exports = {
     actualizarLeadEnOdoo,
     obtenerActividadesDeHoy,
     obtenerActividadesDeLead,
+    obtenerMensajesImportantesDeLead,
     marcarActividadHecha,
     cancelarActividad,
     reagendarActividad,

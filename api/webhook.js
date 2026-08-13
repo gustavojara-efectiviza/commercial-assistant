@@ -54,8 +54,28 @@ async function procesarSiguienteEnCola(chatId, sessionDoc) {
     // VERIFICAR TAREAS PENDIENTES
     try {
         const uid = await odoo.autenticarOdoo();
-        const activities = await odoo.obtenerActividadesDeLead(uid, lead.id);
         
+        // 1. REVISAR MENSAJES IMPORTANTES (EDGAR O MENCIONES)
+        const msg = await odoo.obtenerMensajesImportantesDeLead(uid, lead.id);
+        if (msg) {
+            // Limpiar HTML básico
+            const bodyTexto = msg.body.replace(/<[^>]*>?/gm, '');
+            const autor = msg.author_id ? msg.author_id[1] : 'Odoo';
+            const razon = (msg.author_id && msg.author_id[0] === 458) ? '🗣️ Mensaje de Jefatura (Edgar)' : '🔔 Te han mencionado';
+            
+            const mensaje = `🚨 *ALERTA PRIORITARIA*\n\n*Oportunidad:* ${lead.name}\n*Motivo:* ${razon}\n*De:* ${autor}\n\n"${bodyTexto}"\n\n¿Qué deseas hacer con esto?`;
+            
+            const inline_keyboard = [
+                [ { text: '💬 Responder en Odoo', callback_data: `ACT_MSG_REPLY_${lead.id}` } ],
+                [ { text: '⏭️ Ignorar / Marcar Leído', callback_data: `ACT_MSG_SKIP_${lead.id}` } ]
+            ];
+
+            await bot.sendMessage(chatId, mensaje, { parse_mode: 'Markdown', reply_markup: { inline_keyboard } });
+            return; // Esperamos respuesta al mensaje
+        }
+
+        // 2. REVISAR TAREAS PENDIENTES
+        const activities = await odoo.obtenerActividadesDeLead(uid, lead.id);
         if (activities && activities.length > 0) {
             const act = activities[0];
             const hoyDate = new Date();
@@ -241,6 +261,25 @@ async function procesarActualizacion(update) {
                 return;
             }
 
+            // Si esperamos respuesta a un mensaje importante
+            if (data.estado === 'AWAITING_MSG_REPLY') {
+                await bot.sendMessage(chatId, "⏳ Enviando respuesta a Odoo...");
+                try {
+                    const uid = await odoo.autenticarOdoo();
+                    await odoo.registrarNotaInterna(uid, data.leadId, text);
+                    await bot.sendMessage(chatId, `✅ Respuesta registrada exitosamente.`);
+                } catch(e) {
+                    console.error(e);
+                    await bot.sendMessage(chatId, "❌ Error al registrar respuesta.");
+                }
+                
+                await sessionRef.update({ estado: 'IDLE', leadId: FieldValue.delete() });
+                const updatedDoc = await sessionRef.get();
+                // Responder actualiza el write_date de la oportunidad, pero igual avanzamos en la cola
+                await procesarSiguienteEnCola(chatId, updatedDoc); 
+                return;
+            }
+
             // Si esperamos feedback para cerrar una tarea
             if (data.estado === 'AWAITING_ACT_FEEDBACK') {
                 await bot.sendMessage(chatId, "⏳ Cerrando tarea en Odoo...");
@@ -351,6 +390,22 @@ async function procesarActualizacion(update) {
             if (action === 'ACTSKIP') {
                 await bot.answerCallbackQuery(query.id);
                 await bot.editMessageText(`⏭️ Tarea ignorada por ahora.`, { chat_id: chatId, message_id: messageId });
+                await sessionRef.update({ currentIndex: sessionData.currentIndex + 1 });
+                const updatedDoc = await sessionRef.get();
+                await procesarSiguienteEnCola(chatId, updatedDoc);
+                return;
+            }
+
+            if (action === 'ACT_MSG_REPLY') {
+                await bot.answerCallbackQuery(query.id);
+                await sessionRef.update({ estado: 'AWAITING_MSG_REPLY', leadId: parseInt(actId) });
+                await bot.editMessageText(`💬 Escribe en este chat la respuesta que quieres registrar en Odoo:`, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' });
+                return;
+            }
+
+            if (action === 'ACT_MSG_SKIP') {
+                await bot.answerCallbackQuery(query.id);
+                await bot.editMessageText(`⏭️ Mensaje marcado como leído/ignorado.`, { chat_id: chatId, message_id: messageId });
                 await sessionRef.update({ currentIndex: sessionData.currentIndex + 1 });
                 const updatedDoc = await sessionRef.get();
                 await procesarSiguienteEnCola(chatId, updatedDoc);
