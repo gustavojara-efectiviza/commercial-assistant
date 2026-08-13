@@ -59,12 +59,25 @@ async function procesarSiguienteEnCola(chatId, sessionDoc) {
         if (activities && activities.length > 0) {
             const act = activities[0];
             const hoyDate = new Date();
-            const actDate = new Date(act.date_deadline);
-            // calcular dias de atraso
+            // Para ignorar las horas, seteamos a las 00:00:00 localmente
+            hoyDate.setHours(0, 0, 0, 0);
+            
+            const actDateStr = act.date_deadline;
+            const actDate = new Date(actDateStr + "T00:00:00");
+            
             const diffTime = hoyDate.getTime() - actDate.getTime();
             const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
             
-            let estadoFecha = diffDays > 0 ? `(Vencida hace ${diffDays} días)` : diffDays === 0 ? `(Vence Hoy)` : `(A futuro)`;
+            // Si la tarea más urgente es a futuro (diffDays < 0), entonces NO hay tareas vencidas.
+            // Opción A: Saltamos esta oportunidad silenciosamente.
+            if (diffDays < 0) {
+                await sessionRef.update({ currentIndex: data.currentIndex + 1 });
+                const updatedDoc = await sessionRef.get();
+                await procesarSiguienteEnCola(chatId, updatedDoc);
+                return;
+            }
+            
+            let estadoFecha = diffDays > 0 ? `(Vencida hace ${diffDays} días)` : `(Vence Hoy)`;
 
             const mensaje = `⚠️ *Tarea Pendiente para:* ${lead.name}\n\n📌 *${act.summary || 'Sin asunto'}*\n📅 Fecha límite: ${act.date_deadline} ${estadoFecha}\n\n¿Qué deseas hacer con esta tarea?`;
             
